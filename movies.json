@@ -1,0 +1,92 @@
+{
+  "hot": [
+  { "rank": 1, "title": "이루어질지니", "img": "images/14_m1.jpg" },
+  { "rank": 2, "title": "어쩔수가없다", "img": "images/14_m2.jpg" },
+  { "rank": 3, "title": "은중과 상연", "img": "images/14_m3.jpg" },
+  { "rank": 4, "title": "착한 여자 부세미", "img": "images/14_m4.png" },
+  { "rank": 5, "title": "스파이더맨: 노 웨이 홈", "img": "images/14_m7.jpg" },
+  { "rank": 6, "title": "날씨의 아이", "img": "images/14_m5.jpg" },
+  { "rank": 7, "title": "신과 함께", "img": "images/14_m6.jpg" },
+  { "rank": 8, "title": "외계인 2부", "img": "images/14_m8.jpg" },
+  { "rank": 9, "title": "러브 레터", "img": "images/14_m2.jpg" },
+  { "rank": 10, "title": "F1 The Movie", "img": "images/14_F1_poster.jpg" }
+  ],
+
+  "romance": [
+    { "rank": 1, "title": "투투장부주", "img": "images/14_m1.jpg" },
+    { "rank": 2, "title": "늑대소년", "img": "images/14_m3.jpg" },
+    { "rank": 3, "title": "이프 온리", "img": "images/14_m2.jpg" },
+    { "rank": 4, "title": "어바웃 타임", "img": "images/14_m4.png" },
+    { "rank": 5, "title": "미녀는 괴로워", "img": "images/14_m5.jpg" },
+    { "rank": 6, "title": "노트북", "img": "images/14_m6.jpg" },
+    { "rank": 7, "title": "건축학개론", "img": "images/14_m7.jpg" },
+    { "rank": 8, "title": "라라랜드", "img": "images/14_m8.jpg" },
+    { "rank": 9, "title": "비포 선라이즈", "img": "images/14_m1.jpg" },
+    { "rank": 10, "title": "타이타닉", "img": "images/14_m2.jpg" }
+  ],
+
+  "comedy": [
+    { "rank": 1, "title": "나홀로 집에", "img": "images/14_m2.jpg" },
+    { "rank": 2, "title": "완벽한 타인", "img": "images/14_m4.png" },
+    { "rank": 3, "title": "극한직업", "img": "images/14_m3.jpg" },
+    { "rank": 4, "title": "엽기적인 그녀", "img": "images/14_m1.jpg" },
+    { "rank": 5, "title": "미쓰 와이프", "img": "images/14_m5.jpg" },
+    { "rank": 6, "title": "스물", "img": "images/14_m6.jpg" },
+    { "rank": 7, "title": "럭키", "img": "images/14_m7.jpg" },
+    { "rank": 8, "title": "조폭 마누라", "img": "images/14_m8.jpg" },
+    { "rank": 9, "title": "과속스캔들", "img": "images/14_m1.jpg" },
+    { "rank": 10, "title": "써니", "img": "images/14_m2.jpg" }
+  ],
+
+  "sf": [
+    { "rank": 1, "title": "스파이더맨 2", "img": "images/14_m7.jpg" },
+    { "rank": 2, "title": "외계인 2부", "img": "images/14_m8.jpg" },
+    { "rank": 3, "title": "인터스텔라", "img": "images/14_m6.jpg" },
+    { "rank": 4, "title": "그래비티", "img": "images/14_m1.jpg" },
+    { "rank": 5, "title": "트론: 아레스", "img": "images/14_m4.png" },
+    { "rank": 6, "title": "아바타", "img": "images/14_m5.jpg" },
+    { "rank": 7, "title": "듄", "img": "images/14_m7.jpg" },
+    { "rank": 8, "title": "매트릭스", "img": "images/14_m3.jpg" },
+    { "rank": 9, "title": "에일리언", "img": "images/14_m2.jpg" },
+    { "rank": 10, "title": "블레이드 러너", "img": "images/14_m6.jpg" }
+  ],
+
+  "fantasy": [
+    { "rank": 1, "title": "신과 함께", "img": "images/14_m6.jpg" },
+    { "rank": 2, "title": "반지의 제왕", "img": "images/14_m7.jpg" },
+    { "rank": 3, "title": "해리포터", "img": "images/14_m3.jpg" },
+    { "rank": 4, "title": "판의 미로", "img": "images/14_m5.jpg" },
+    { "rank": 5, "title": "나니아 연대기", "img": "images/14_m2.jpg" },
+    { "rank": 6, "title": "닥터 스트레인지", "img": "images/14_m8.jpg" },
+    { "rank": 7, "title": "말레피센트", "img": "images/14_m4.png" },
+    { "rank": 8, "title": "셜록 홈즈", "img": "images/14_m1.jpg" },
+    { "rank": 9, "title": "미이라", "img": "images/14_m6.jpg" },
+    { "rank": 10, "title": "원더우먼", "img": "images/14_m7.jpg" }
+  ],
+
+  "animation": [
+    { "rank": 1, "title": "토토로", "img": "images/14_m5.jpg" },
+    { "rank": 2, "title": "센과 치히로", "img": "images/14_m1.jpg" },
+    { "rank": 3, "title": "너의 이름은", "img": "images/14_m3.jpg" },
+    { "rank": 4, "title": "토이 스토리", "img": "images/14_m4.png" },
+    { "rank": 5, "title": "코코", "img": "images/14_m2.jpg" },
+    { "rank": 6, "title": "겨울왕국", "img": "images/14_m6.jpg" },
+    { "rank": 7, "title": "업", "img": "images/14_m7.jpg" },
+    { "rank": 8, "title": "라푼젤", "img": "images/14_m8.jpg" },
+    { "rank": 9, "title": "하울의 움직이는 성", "img": "images/14_m1.jpg" },
+    { "rank": 10, "title": "몬스터 주식회사", "img": "images/14_m3.jpg" }
+  ],
+
+  "action": [
+    { "rank": 1, "title": "슈퍼맨 2", "img": "images/14_F1_poster.jpg" },
+    { "rank": 2, "title": "분노의 질주", "img": "images/14_m7.jpg" },
+    { "rank": 3, "title": "미션 임파서블", "img": "images/14_m8.jpg" },
+    { "rank": 4, "title": "존 윅", "img": "images/14_m6.jpg" },
+    { "rank": 5, "title": "탑건: 매버릭", "img": "images/14_m4.png" },
+    { "rank": 6, "title": "어벤져스", "img": "images/14_m5.jpg" },
+    { "rank": 7, "title": "아이언맨", "img": "images/14_m1.jpg" },
+    { "rank": 8, "title": "스파이더맨", "img": "images/14_m3.jpg" },
+    { "rank": 9, "title": "캡틴 아메리카", "img": "images/14_m2.jpg" },
+    { "rank": 10, "title": "블랙 팬서", "img": "images/14_m7.jpg" }
+  ]
+}
