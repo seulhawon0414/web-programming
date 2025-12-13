@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sookplay main page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="14_sookplay_main.css">
+    <link rel="stylesheet" href="14_sookplay_common.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo_img" src="images/14_logo.png" alt="사이트 로고">
+        </div>
+        <!--메뉴바 다른 페이지들과 연결-->
+        <div class="menu_nav">
+            <a class="menu menu_active" href="14_sookplay_main.html" >홈</a>
+            <a class="menu" href="14_sookplay_page2.html" >음악</a>
+            <a class="menu" href="14_sookplay_page3.html" >커뮤니티</a>
+            <a class="menu" href="14_sookplay_page5.html" >마이페이지</a>
+        </div>
+
+        <div class="search">
+            <div class="search_bar main_search">
+                <img src="images/14_search.png" alt="검색아이콘">
+                <input class="searchInput" type="text" placeholder="영화, 노래 제목을 검색">
+                <div class="search-suggest" id="suggestBox"></div>
+
+            </div>
+        </div>
+
+       <div class="login">
+                <a class="signInUp" href="#">로그인</a> | <a class="signInUp" href="#">회원가입</a>
+            </div>
+        
+    </header>
+<!--메인 히어로 배너 추가-->
+<section class="hero-banner">
+  <button class="hero-nav prev" id="heroPrev">&lt;</button>
+
+  <div class="hero-track-wrapper">
+    <div class="hero-track" id="heroTrack">
+      <div class="hero-slide">
+        <img src="images/14_photo.jpg" alt="f1 배너">
+        <div class="hero-text">
+          <h1>F1 The Movie</h1>
+          <h3>속도의 한계를 넘다</h3>
+          <a href="14_sookplay_page1_1.html">
+          <button class="hero-btn">지금 보러가기 ▶️</button>
+          </a>
+        </div>
+      </div>
+
+    <div class="hero-slide">
+        <img src="images/14_m11.jpg" alt="날씨의 아이 배너">
+        <div class="hero-text">
+          <h1>날씨의 아이</h1>
+          <h3>아름다운 소년과 소녀의 사랑</h3>
+          <a href="14_sookplay_page1_2.html">
+          <button class="hero-btn">지금 보러가기 ▶️</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <img src="images/14_m9.jpg" alt="은중과 상연 배너">
+        <div class="hero-text">
+          <h1>은중과 상연</h1>
+          <h3>애증을 전부 끌어안은 관계</h3>
+          <a href="14_sookplay_page1_3.html">
+          <button class="hero-btn">지금 보러가기 ▶️</button>
+          </a>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <button class="hero-nav next" id="heroNext">&gt;</button>
+
+</section>
+
+
+
+<!--js 연결 위한 장르 수정-->
+<div class="all_option">
+    <div class="top">
+        <form method="get" action="#">
+            <label for="genre"><strong id="genre_text">장르별 영화찾기</strong></label>
+            <select name ="장르" id="genre">
+                <option value ="hot">Hot 랭킹</option>
+                <option value="romance">로맨스</option>
+                <option value="comedy">코미디</option>
+                <option value="sf">SF</option>
+                <option value="fantasy">판타지</option>
+                <option value="animation">애니메이션</option>
+                <option value="action">액션</option>
+
+
+            </select>
+        </form>
+    </div>
+
+<h2 class="movies_title" id="rankingTitle">지금의 HOT 랭킹🔥</h2>
+
+ <!---기존 테이블 구조에서 카드 구조로 수정-->
+  <div class="ranking-table">
+    <div class="ranking-inner"> 
+      <div class="ranking-row" id="rankingRow">
+        <div class="ranking-card"></div>
+      </div> 
+    </div> 
+
+
+
+<h2 class="movies_title">꼭 봐야하는 SF & 판타지🦸🏻</h2>
+<div class="SF">
+    <div class="ranking-row">
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/70305903"><img src="images/14_m6.jpg" class="movieposter" alt="인터스텔라"></a>
+            <p class="movietitle">인터스텔라</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/70298386"><img src="images/14_m4.png" class="movieposter" alt="말레피센트"></a>
+            <p class="movietitle">말레피센트</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/81465707"><img src="images/14_m7.jpg" class="movieposter" alt="스파이더맨: 노 웨이 홈"></a>
+            <p class="movietitle">스파이더맨: 노 웨이 홈</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/81942255"><img src="images/14_m8.jpg" class="movieposter" alt="외계인 2부"></a>
+            <p class="movietitle">외계인 2부</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/60036230"><img src="images/14_m1.jpg" class="movieposter" alt="스파이더맨 2"></a>
+            <p class="movietitle">스파이더맨 2</p>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="boxoffice">
+<section class="ranking-section">
+    <h2>🍿 현재 박스오피스 순위는? 📈</h2>
+    <ol class="box-office-list">
+        <li>
+            <span class="title">어쩔수가없다</span>
+            <span class="audience">(2,343,201명)</span>
+        </li>
+        <li>
+            <span class="title">보스</span>
+            <span class="audience">(1,554,955명)</span>
+        </li>
+        <li>
+            <span class="title">극장판 체인소 맨: 레제편</span>
+            <span class="audience">(1,400,372명)</span>
+        </li>
+        <li>
+            <span class="title">원 배틀 애프터 어나더</span>
+            <span class="audience">(253,048명)</span>
+        </li>
+        <li>
+            <span class="title">트론: 아레스</span>
+            <span class="audience">(56,308명)</span>
+        </li>
+    </ol>
+</section>
+<!--기사 링크 연결-->
+<aside class="sidebar">
+        <h2>한 눈에 보는 관련 뉴스🔖</h2>
+        <ul>
+            <li><a href="https://imnews.imbc.com/news/2025/enter/article/6763060_36758.html">'보스', 개봉 첫 주 150만 돌파...</a></li>
+            <li><a href="https://news.jtbc.co.kr/article/NB12270750?influxDiv=NAVER">'극장판 체인소 맨', 원작의 강렬한 에피소드로 스크린에 귀환</a></li>
+            <li><a href="https://imnews.imbc.com/news/2025/enter/article/6763060_36758.html">'트론: 아레스', 단순한 CG를 넘어 철학적 질문을 던지는 SF</a></li>
+            <li><a href="https://news.jtbc.co.kr/article/NB12270750?influxDiv=NAVER">'원 배틀 애프터 어나더',압도적인 스케일로 평단 호평 릴레이</a></li>
+            <li><a href="https://imnews.imbc.com/news/2025/enter/article/6763060_36758.html">평론가 선택: '어쩔수가없다'가 보여주는 우리 시대의 자화상</a></li>
+            </ul>
+    </aside>
+</div>
+
+<!--대칭 수정-->
+<section class="quote-section">
+  <h2>오늘의 명대사 ✍️</h2>
+  <figure>
+    <blockquote>
+      <p>내 인생이 비극인 줄 알았는데, 코미디였어.</p>
+    </blockquote>
+    <figcaption>
+      —아서 플렉, 영화 <cite>조커</cite>
+    </figcaption>
+  </figure>
+</section>
+
+<!--아래 두 기능은 js로 구현-->
+<h2 class="movies_title" id="interestTitle">내가 최근 관심 있게 본 콘텐츠 👀</h2>
+<div class="ranking-table" id="interestSection">
+  <div class="ranking-row" id="interestRow">
+  </div>
+</div>
+
+<h2 class="movies_title" id="personalTitle">당신을 위한 맞춤 추천 🎯</h2>
+<div class="ranking-table" id="personalSection">
+  <div class="ranking-row" id="personalRow">
+  </div>
+</div>
+<button id="resetBtn">추천 다시 받아보기 🔄</button>
+
+
+<section class="f1-section">
+    <h2>🎬나만 빼고 다 본 영화🏎️</h2> 
+    <div class="f1-content">
+        <div class="f1-poster-container">
+            <a href="#">
+                <img src="images/14_F1_poster.jpg" alt="F1 포스터" class="f1-movie-poster">
+            </a>
+            <p class="f1-movie-title">F1® The Movie</p>
+        </div>
+        <div class="f1-intro-text">
+            <p>
+                이미 전 세계 수억 명은 타이어 연기 속에 숨겨진 치열한 전략과 0.001초의 드라마에 열광하고 있습니다. <br><br>
+                주말마다 전 세계를 뜨겁게 달구는 이 레이스의 정체를 아직 모르신다면, <br>당신은 가장 짜릿한 드라마를 놓치고 있는 겁니다.<br><br> 더 늦기 전에 지상에서 가장 빠른 이들의 전쟁에 지금 바로 동참하세요.
+            </p>
+            <br><br>
+            <a href="14_sookplay_page1_1.html" class="more-info-button">F1® The Movie 보러가기 →</a>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="membership-ad">
+  <div class="ad-content">
+    <h2>👑 숙 플러스 구독하기</h2>
+    <p>남들보다 한발 앞서 만나는 선공개 콘텐츠, 몰입감을 더하는 4K 초고화질 스트리밍, 데이터 걱정 없는 오프라인 저장까지. 멤버십의 모든 혜택을 누려보세요!</p>
+    <a href="#" class="ad-button">첫 달 무료로 시작하기 →</a>
+  </div>
+</section>
+
+
+
+
+<h2 class="movies_title">숙플러스 랭킹🥇</h2>
+<div class="ranking-table" id="sookplus">
+    <div class="ranking-row">
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/80204890"><img src="images/14_F1_poster.jpg" class="movieposter"></a>
+            <p class="movietitle">F1 The movie</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/80204890"><img src="images/14_m2.jpg" class="movieposter"></a>
+            <p class="movietitle">러브 레터</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="14_sookplay_page1_3.html"><img src="images/14_m3.jpg" class="movieposter"></a>
+            <p class="movietitle">서브스턴스</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/70261674"><img src="images/14_m4.png" class="movieposter"></a>
+            <p class="movietitle">어바웃 타임</p>
+        </div>
+
+        <div class="ranking-card">
+            <a href="https://www.netflix.com/kr/title/81172898"><img src="images/14_m7.jpg" class="movieposter"></a>
+            <p class="movietitle">날씨의 아이</p>
+        </div>
+
+    </div>
+</div>
+<!--기존 테이블 구조에서 카드 구조로 수정-->
+<div class="magazine-event">
+    <div class="magazine-event-header">
+        <h2 id="magazineeventtext">매거진🧾 & 이벤트✨</h2>
+    </div>
+
+    <div class="magazine-card-row">
+        <div class="magazine-card">
+            <a href="#"><img src="images/14_m9.jpg" class="magazine"></a>
+            <h3><strong>긴 러닝 타임을 견딜 수 있는 명작 TOP 10</strong></h3>
+            <p>명작으로 꼽히는 러닝 타임 200분 이상의 작품들⏱️</p>
+        </div>
+
+        <div class="magazine-card">
+            <a href="#"><img src="images/14_m10.png" class="sisa"></a>
+            <h3><strong>〈만남의 집〉 시사회 초대 이벤트 🏠</strong></h3>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+        <div class="links">
+                <a class="footerLink" href="#">서비스 이용 약관</a>
+                <a class="footerLink" href="#">개인정보 처리 방침</a>
+                <a class="footerLink" href="#">서비스 이용 약관</a>
+                <a class="footerLink" href="#">청소년 보호정책</a>
+                <a class="footerLink" href="#">고객센터</a>
+                <a class="footerLink" href="#">채용정보</a>
+            </div>    
+            <div class="infor">
+                <p>
+                    <strong>고객센터(이용 및 결제 문의)</strong> 숙명여자대학교 | 02-710-9114 (무료)
+                </p>
+                <p>
+                    <strong>광고 문의</strong> shw24@sookmyung.ac.kr | <a class="footerLink" href="#">최신 광고 소개서</a>
+                </p>
+                <p>
+                    <strong>제휴 및 대외 협력</strong> <a class="footerLink" href="https://www.sookmyung.ac.kr/">https://www.sookmyung.ac.kr/</a>
+                </p>
+                <p>
+                    <strong>B2B 구독권 구매 문의</strong> 숙명여자대학교
+                </p>
+                <address class="address">
+                    <span>주식회사 송이 | 대표 눈송이 | 서울특별시 용산구 청파로47길 100</span> 
+                    <span>사업자등록번호 123-45-678910</span>
+                    <span>호스팅 서비스 제공자 아마존웹서비시즈코리아 유한회사</span>
+                </address>
+            </div>
+        </footer>
+    <script src="14_sookplay_main.js"></script>
+    <script src="14_sookplay_common.js"></script>
+</body>
+</html>

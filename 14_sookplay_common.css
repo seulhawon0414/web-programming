@@ -1,0 +1,106 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    height: 70%;
+    margin-left: 2vw;
+    margin-right: 10px;
+}
+
+#logo_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.menu_nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    color: grey;
+}
+
+.menu:link,.menu:visited, 
+.signInUp:link,.signInUp:visited,
+.footerLink:link, .footerLink:visited {
+    color: grey;
+}
+
+/* 메뉴 선택 시 색 변경, 이후 js 구현 시 사용*/
+.menu:focus, .menu:hover,
+.signInUp:focus, .signInUp:hover {
+    color: rgba(5, 13, 92, 0.96);
+    font-weight: bold;
+}
+
+/* 각 페이지 별 메뉴에 클래스 추가 */
+.menu.menu_active {
+    color: rgba(5, 13, 92, 0.96);
+    font-weight: bold;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    margin-right: 2vw;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.main_search {
+    width: 70%;
+}
+
+#review_search {
+    width: 300px;
+    margin-top: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.searchInput {
+    border : none;
+    outline: none;
+    margin-left: 2px;
+    width: 100%;
+}
+
+.login {
+    margin-right: 2vw;
+}
+
+.signInUp, .footerLink {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 40px 50px;
+    color: #555;
+    font-size: 15px;
+    border-top: 1px solid #e0e0e0;
+}
