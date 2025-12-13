@@ -1,0 +1,35 @@
+.notfound-wrap {
+    text-align: center;
+    margin-top: 120px;   
+}
+
+
+.notfound-wrap h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.notfound-wrap p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+#gohome {
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgba(5, 13, 92, 0.96);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: 0.2s;
+    margin-bottom: 20%;
+}
+
+#gohome:hover {
+    background: rgba(5, 13, 92, 0.8);
+}
